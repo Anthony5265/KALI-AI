@@ -1,0 +1,28 @@
+# AGENTS Log
+- 2025-07-13T23:26:08Z Initialized Repo Convergence Audit; generated digest_map.json and SYNC_REPORT.md.
+- 2025-07-13T23:26:16Z Completed Round 2 of Repo Convergence Audit.
+- 2025-07-13T23:26:22Z Completed Round 3.
+- 2025-07-13T23:26:33Z Completed Round 4; updated digest_map with AGENTS.md.
+- 2025-07-13T23:26:43Z Phase -1 threat model initiated.
+- 2025-07-13T23:26:48Z Phase -1 Round 2 completed; identified top risks.
+- 2025-07-13T23:26:58Z Phase -1 Round 3 added threat model and premortem.
+- 2025-07-13T23:27:06Z Phase -1 completed with threat model docs.
+- 2025-07-13T23:27:15Z Phase 0 initiated.
+- 2025-07-13T23:27:34Z Phase 0 Round 2 created ADRs and architecture diagram.
+- 2025-07-13T23:27:45Z Phase 0 Round 3 updated architecture docs.
+- 2025-07-13T23:27:54Z Phase 0 completed with ADR index.
+- 2025-07-13T23:28:16Z Phase 1 Round 1 scaffolding repo directories.
+- 2025-07-13T23:28:31Z Phase 1 Round 2 added CI pipeline and requirements.
+- 2025-07-13T23:28:47Z Phase 1 Round 3 added sync checker and updated pipeline.
+- 2025-07-13T23:29:09Z Phase 1 Round 4 added Makefile and lint setup.
+- 2025-07-13T23:29:38Z Phase 2 Round 1 implemented simple conversation engine.
+- 2025-07-13T23:30:22Z Phase 2 Round 2 added plugin manager and tests.
+- 2025-07-13T23:30:46Z Phase 2 Round 3 added Tauri placeholder and cli wrapper.
+- 2025-07-13T23:31:09Z Phase 2 Round 4 added seccomp placeholder.
+- 2025-07-14T01:37:53Z Phase -2 Repo Convergence Audit updated digest_map and SYNC_REPORT.
+- 2025-07-14T01:38:29Z Phase -1 threat model reviewed and SBOM updated.
+- 2025-07-14T01:38:58Z Expanded threat model mitigations.
+- 2025-07-14T01:39:18Z Linked PREMORTEM to threat model.
+- 2025-07-14T01:39:35Z Phase 0 architecture docs reviewed.
+- 2025-07-14T01:40:24Z Refined CI workflow and gitignore.
+- 2025-07-14T01:40:34Z Phase 0 completed.

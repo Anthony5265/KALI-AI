@@ -1,0 +1,21 @@
+name: CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: pip install pytest flake8
+      - name: Lint
+        run: python -m flake8 backend tests
+      - name: Run tests
+        run: pytest -q
+      - name: Run SBOM
+        run: ./scripts/generate_sbom.sh
+      - name: Check sync
+        run: python scripts/sync_checker.py
