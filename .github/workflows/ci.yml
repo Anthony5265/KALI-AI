@@ -1,0 +1,19 @@
+name: CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install deps
+        run: pip install pytest
+      - name: Run tests
+        run: pytest
+      - name: Run SBOM
+      - name: Check sync
+        run: python scripts/sync_checker.py
+        run: ./scripts/generate_sbom.sh
